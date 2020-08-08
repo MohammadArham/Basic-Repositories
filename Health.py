@@ -22,7 +22,7 @@ if inp3==1:
             f=open("harry_exer.txt","a")
             f.write(str(getdate()))
             try:
-                f.write(w)
+                f.write(f" {w}\n")
                 print("Successfully Writen")
             except Exception as ex:
                 print(ex)
@@ -31,7 +31,7 @@ if inp3==1:
             w=input("Enter Diet:")
             f=open("harry_dit.txt","a")
             f.write(str(getdate()))
-            f.write(w)
+            f.write(f" {w}\n")  
             print("Successfully Writen")
             f.close()
         else:
@@ -41,14 +41,14 @@ if inp3==1:
             w=input("Enter Exercise:")
             f=open("jarry_exer.txt","a")
             f.write(str(getdate()))
-            f.write(w)
+            f.write(f" {w}\n")
             print("Successfully Writen")
             f.close()
         elif inp2==2:
             w=input("Enter Diet:")
             f=open("jarry_dit.txt","a")
             f.write(str(getdate()))
-            f.write(w)
+            f.write(f" {w}\n")
             print("Successfully Writen")
             f.close()
         else:
@@ -58,14 +58,14 @@ if inp3==1:
             w=input("Enter Exercise:")
             f=open("marry_exer.txt","a")
             f.write(str(getdate()))
-            f.write(w)
+            f.write(f" {w}\n")
             print("Successfully Writen")
             f.close()
         elif inp2==2:
             w=input("Enter Diet:")
             f=open("marry_dit.txt","a")
             f.write(str(getdate()))
-            f.write(w)
+            f.write(f" {w}\n")
             print("Successfully Writen")
             f.close()
         else:
